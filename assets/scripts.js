@@ -1,9 +1,7 @@
 btnAll = document.querySelectorAll('.btnAll')
-btnBackspace = document.querySelector('.btnBackspace')
 btnClear = document.querySelector('.btnClear')
+btnBackspace = document.querySelector('.btnBackspace')
 btnEqual = document.querySelector('.btnEqual')
-btnNumber = document.querySelectorAll('.btnNumber')
-btnOpt = document.querySelectorAll('.btnOpt')
 result = document.querySelector('.result')
 
 btnAll.forEach((btn) => {
@@ -33,7 +31,6 @@ btnEqual.addEventListener('click', () => {
         catch(err) {
             console.error('Deu erro' + err)
             alert('Digite a expressão corretamente!')
-
         }
     } else {
         alert('Por favor, digite a expressão')
