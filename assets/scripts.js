@@ -25,8 +25,6 @@ btnEqual.addEventListener('click', () => {
         alert('Por favor, digite um número primeiro!')
     }
 })
-    
-
 
 btnClear.addEventListener('click', () => {
     result.value = ''
