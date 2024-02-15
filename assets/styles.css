@@ -60,3 +60,8 @@ button:hover {
     grid-row: span 2;
     height: 150px;
 }
+
+.btnClear {
+    grid-column: span 2;
+    width: 152.5px;
+}
